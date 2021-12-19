@@ -1,0 +1,65 @@
+---
+title: "1. Introducción a R. Ejercicios"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+# Intro
+
+Crea un Script y resuelve ahí los ejercicios. 
+
+En *RStudio*, ve al menú Files, luego en New File y en R Script.
+
+Un script es un archivo de texto que contiene los comandos o instrucciones que queremos correr.
+
+
+
+## Operaciones
+
+1.  Corre las siguentes operaciones
+
+-   $2 + 2$
+-   $3 - 3$
+-   $3 \times 3$
+-   $3/3$
+-   $3^2$
+-   $(3 \times 3 )- 3$. Cuyo resultado es $6$
+-   $\frac{3 \times 3} {3 - 2^{4-2} } + 4$. Cuyo resultado es $-5$
+-   $2^3$
+-   $-2^2$. Cuyo resultado es $4$
+
+*Nota: recuerda que puedes usar paréntesis para separar o agrupar operaciones*
+
+
+
+## Variables
+
+
+1.  Crea las siguientes variables:
+
+-   Una variable que se llame $perro$, que contenga el valor 5
+-   Una variable que se llame $gato$ , que contenga el valor de 10
+-   Una variable que se llame $simio$ , que contenga el valor de $2 \times gato$
+-   Una variable que se llame $mamifero$, que contenga el de la multiplicación de $\frac{simio - gato}{perro ^2}$
+
+*mamifero tiene un valor de 0.4*
+
+2.  ¿Cuál sería el valor de $z$?
+
+-   $x = 44$
+-   $y = x^2$
+-   $z = \frac{2y - 80}{y}$
+
+*z tiene un valor aproximado de 1.9587*
+
+## Paquetes y ayuda
+
+
+1.  Corre el siguiente comando y lee la documentación. Identifica los parámetros y corre los ejemplos
+
+    ```
+    ?sum
+    ```
+2.  Lee la documentacion del comando mean()
